@@ -23,7 +23,7 @@ function descending(){
 		done
 	done
 }
-function Ascending(){
+function ascending(){
    for (( i=0; i<$size; i++ ))
    do
       for (( j=i+1; j<=$size; j++ ))
@@ -57,6 +57,6 @@ echo "using array print values  : "${array[@]} #print the result
 size=${#array[@]}
 descending
 echo "result in desending order : "${array[@]}
-Ascending
+ascending
 echo "result in Ascending order :"${array[@]}
 
